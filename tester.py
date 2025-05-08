@@ -11,6 +11,6 @@ first_paragraph = lane_page.content.split("\n\n")[0]
 print(first_paragraph)
 print("----------------------------------------------------------------")
 # Extract all numbers in the article
-allNumbers = lane_page.content.split("/d+")
+allNumbers = lane_page.content.split("\d+")
 
 #does not work???? figure it out later
